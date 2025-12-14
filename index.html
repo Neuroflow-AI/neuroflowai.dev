@@ -1,15 +1,291 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-	<script type="module" crossorigin src="./script.js"></script>
-	<link rel="stylesheet" crossorigin href="./styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neuroflow AI - Sustainable Competitive Advantage Through AI</title>
+  <meta name="description" content="Transform your business with AI solutions that generate strategic value, optimize operations, and enhance your exponential innovation capacity.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-
 <body>
-	<div id="root"></div>
-</body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"/><path d="M8.5 8.5v.01"/><path d="M16 15.5v.01"/><path d="M12 12v.01"/><path d="M11 17v.01"/><path d="M7 14v.01"/></svg>
+        </div>
+        <span class="logo-text">Neuroflow AI</span>
+      </a>
 
+      <div class="nav-menu">
+        <a href="#solutions" class="nav-link" data-i18n="nav.solutions">Solutions</a>
+        <a href="#vision" class="nav-link" data-i18n="nav.features">Features</a>
+        <a href="#clients" class="nav-link" data-i18n="nav.resources">Resources</a>
+        <a href="about.html" class="nav-link" data-i18n="nav.about">About Us</a>
+        <div class="language-selector">
+          <button class="language-btn" id="language-toggle">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+            <span id="current-lang">EN</span>
+          </button>
+        </div>
+        <a href="https://www.linkedin.com/company/neuroflowai" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="nav.contact">Contact</a>
+      </div>
+
+      <button class="mobile-toggle" id="mobile-toggle">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>
+          <span data-i18n="hero.badge">Cutting-Edge Technology</span>
+        </div>
+
+        <h1 class="hero-title">
+          <span data-i18n="hero.title">Artificial Intelligence as</span>
+          <span class="gradient-text" data-i18n="hero.titleHighlight">Sustainable Competitive Advantage</span>
+        </h1>
+
+        <p class="hero-description" data-i18n="hero.description">
+          Transform your business with AI solutions that generate strategic value, optimize operations, and enhance your exponential innovation capacity in dynamic markets.
+        </p>
+
+        <div class="hero-cta">
+          <a href="https://www.linkedin.com/company/neuroflowai" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+            <span data-i18n="hero.cta1">Get Started</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#solutions" class="btn btn-outline btn-lg">
+            <span data-i18n="hero.cta2">View Demo</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+
+        <div class="metrics">
+          <div class="metric">
+            <p class="metric-value primary" data-i18n="hero.metric1">98%</p>
+            <p class="metric-label" data-i18n="hero.metric1Label">Result Precision</p>
+          </div>
+          <div class="metric">
+            <p class="metric-value accent" data-i18n="hero.metric2">350+</p>
+            <p class="metric-label" data-i18n="hero.metric2Label">Companies Transformed</p>
+          </div>
+          <div class="metric">
+            <p class="metric-value primary" data-i18n="hero.metric3">40%</p>
+            <p class="metric-label" data-i18n="hero.metric3Label">Efficiency Increase</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="solutions" class="features">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-i18n="features.title">Integrated AI Solutions</h2>
+        <p data-i18n="features.subtitle">Specialized cognitive architecture to accelerate digital business transformation</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card primary">
+          <div class="feature-icon primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"/><path d="M8.5 8.5v.01"/><path d="M16 15.5v.01"/><path d="M12 12v.01"/><path d="M11 17v.01"/><path d="M7 14v.01"/></svg>
+          </div>
+          <h3 data-i18n="features.feature1Title">Advanced Cognitive Processing</h3>
+          <p data-i18n="features.feature1Desc">Neural learning engines that process multidimensional patterns with unprecedented semiotic capacity.</p>
+          <a href="#" class="feature-link primary">
+            <span data-i18n="features.explore">Explore</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+
+        <div class="feature-card accent">
+          <div class="feature-icon accent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          </div>
+          <h3 data-i18n="features.feature2Title">Synergistic Optimization</h3>
+          <p data-i18n="features.feature2Desc">Auto-regenerative algorithms that optimize operational processes through quantum computational efficiency paradigms.</p>
+          <a href="#" class="feature-link accent">
+            <span data-i18n="features.explore">Explore</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+
+        <div class="feature-card primary">
+          <div class="feature-icon primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+          </div>
+          <h3 data-i18n="features.feature3Title">Stratified Security</h3>
+          <p data-i18n="features.feature3Desc">Multi-level protection infrastructure with cyber-resilience certifications and isomorphic data governance.</p>
+          <a href="#" class="feature-link primary">
+            <span data-i18n="features.explore">Explore</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+
+        <div class="feature-card accent">
+          <div class="feature-icon accent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3 data-i18n="features.feature4Title">Dynamic Scalability</h3>
+          <p data-i18n="features.feature4Desc">Elastic architecture that adapts to exponential data volumes while maintaining structural coherence and semantic consistency.</p>
+          <a href="#" class="feature-link accent">
+            <span data-i18n="features.explore">Explore</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+
+        <div class="feature-card primary">
+          <div class="feature-icon primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></svg>
+          </div>
+          <h3 data-i18n="features.feature5Title">Generative Innovation</h3>
+          <p data-i18n="features.feature5Desc">Transformational models that generate predictive insights and strategic ideation through advanced epistemic synthesis.</p>
+          <a href="#" class="feature-link primary">
+            <span data-i18n="features.explore">Explore</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+
+        <div class="feature-card accent">
+          <div class="feature-icon accent">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"/><path d="M8.5 8.5v.01"/><path d="M16 15.5v.01"/><path d="M12 12v.01"/><path d="M11 17v.01"/><path d="M7 14v.01"/></svg>
+          </div>
+          <h3 data-i18n="features.feature6Title">Intelligent Orchestration</h3>
+          <p data-i18n="features.feature6Desc">Integrated ecosystem that coordinates multiple intelligence dimensions with superior metacognitive synchronization.</p>
+          <a href="#" class="feature-link accent">
+            <span data-i18n="features.explore">Explore</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vision & Mission Section -->
+  <section id="vision" class="vision-mission">
+    <div class="container">
+      <div class="vision-mission-grid">
+        <div class="vision-mission-card">
+          <h2 data-i18n="vision.title">Our Vision</h2>
+          <p class="lead" data-i18n="vision.description">To transform artificial intelligence into a sustainable competitive advantage for our clients, driving their growth, efficiency, and innovation capacity in a constantly evolving business environment.</p>
+          <div class="checklist">
+            <div class="check-item primary">
+              <div class="check-icon"></div>
+              <p data-i18n="vision.item1">Accelerated business transformation</p>
+            </div>
+            <div class="check-item primary">
+              <div class="check-icon"></div>
+              <p data-i18n="vision.item2">Long-term competitive sustainability</p>
+            </div>
+            <div class="check-item primary">
+              <div class="check-icon"></div>
+              <p data-i18n="vision.item3">Continuous innovation in dynamic ecosystems</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vision-mission-card">
+          <h2 data-i18n="mission.title">Our Mission</h2>
+          <p class="lead" data-i18n="mission.description">Develop solutions and proprietary products that generate strategic value for enterprises, strengthening their competitiveness through excellence, innovation, and deep understanding of their specific needs.</p>
+          <div class="checklist">
+            <div class="check-item accent">
+              <div class="check-icon"></div>
+              <p data-i18n="mission.item1">High-impact customized solutions</p>
+            </div>
+            <div class="check-item accent">
+              <div class="check-icon"></div>
+              <p data-i18n="mission.item2">Proven technical and operational excellence</p>
+            </div>
+            <div class="check-item accent">
+              <div class="check-icon"></div>
+              <p data-i18n="mission.item3">Durable strategic partnerships</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clients Section -->
+  <section id="clients" class="clients">
+    <div class="container">
+      <h2 data-i18n="clients.title">Trusted by Industry Leaders</h2>
+      <div class="clients-grid">
+        <div class="client-card">
+          <div class="client-logo">I</div>
+          <span class="client-name">Innovatech</span>
+        </div>
+        <div class="client-card">
+          <div class="client-logo">D</div>
+          <span class="client-name">DataSync</span>
+        </div>
+        <div class="client-card">
+          <div class="client-logo">C</div>
+          <span class="client-name">CloudNext</span>
+        </div>
+        <div class="client-card">
+          <div class="client-logo">M</div>
+          <span class="client-name">MetaCorp</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section id="cta" class="cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2 data-i18n="cta.title">Ready to Transform Your Business?</h2>
+        <p data-i18n="cta.description">Join hundreds of companies already generating strategic value through cutting-edge artificial intelligence.</p>
+        <div class="cta-buttons">
+          <a href="https://www.linkedin.com/company/neuroflowai" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">
+            <span data-i18n="cta.cta1">Schedule Consultation</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="mailto:contacto@neuroflowai.dev" class="btn btn-outline btn-lg">
+            <span data-i18n="cta.cta2">Download Case Studies</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-column">
+          <h4 data-i18n="footer.company">Company</h4>
+          <ul>
+            <li><a href="about.html" data-i18n="footer.about">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4 data-i18n="footer.contact">Contact</h4>
+          <ul>
+            <li><a href="mailto:contacto@neuroflowai.dev" data-i18n="footer.email">contacto@neuroflowai.dev</a></li>
+            <li><a href="https://www.linkedin.com/company/neuroflowai" target="_blank" rel="noopener noreferrer" data-i18n="footer.linkedin">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">© 2025 Neuroflow AI. All rights reserved.</p>
+        <p data-i18n="footer.tagline">Driving the intelligence of tomorrow's enterprise</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
 </html>
