@@ -636,7 +636,7 @@ body {
 
 .traction-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
 
@@ -668,8 +668,16 @@ body {
 }
 
 .traction-label {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.5rem;
+}
+
+.traction-detail {
   font-size: 0.875rem;
   color: var(--color-muted);
+  line-height: 1.5;
 }
 
 /* CTA Section */
