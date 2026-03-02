@@ -31,32 +31,34 @@ const translations = {
       feature1Desc:
         'Our AI extracts and understands data from receipts, invoices, and financial documents using advanced OCR and machine learning.',
       feature1Link: 'See it in Solvencia',
-      feature2Title: 'Smart Financial Automation',
+      feature2Title: 'AI-Powered Scheduling',
       feature2Desc:
-        'Automated recurring payment tracking, subscription management, and intelligent categorization that saves hours of manual work every week.',
-      feature2Link: 'See it in PayControl',
+        'Automated appointment booking via WhatsApp AI agent, smart reminders, and intelligent calendar management that fills your schedule 24/7.',
+      feature2Link: 'See it in tuagenda.digital',
       feature3Title: 'Cross-Platform Intelligence',
       feature3Desc:
         'Our products work where you do — web, iOS, Android, Telegram, and WhatsApp — with real-time sync and consistent AI capabilities across every platform.',
       feature3Link: 'See it in Solvencia',
-      feature4Title: 'Actionable Financial Insights',
+      feature4Title: 'WhatsApp AI Booking Agent',
       feature4Desc:
-        'From burn rate analysis and survival calendars to budget tracking and warranty alerts, our AI transforms raw financial data into decisions you can act on.',
-      feature4Link: 'See it in PayControl',
+        'A conversational AI agent on WhatsApp that checks real-time availability, suggests times, confirms appointments and sends reminders — all automatically, 24/7.',
+      feature4Link: 'See it in tuagenda.digital',
     },
     products: {
       title: 'Our Products',
       subtitle: 'Real tools solving real problems for thousands of users',
-      paycontrolName: 'PayControl',
-      paycontrolTagline: 'Never Miss a Payment. Never Lose Track.',
-      paycontrolDesc:
-        'Payment and inventory tracking platform for freelancers, small businesses, and teams. Track payments with custom statuses, automate recurring billing, and manage your entire operation in one place.',
-      paycontrolF1: 'Payment tracking with custom statuses',
-      paycontrolF2: 'Recurring & subscription automation',
-      paycontrolF3: 'Inventory & asset tracking with warranty monitoring',
-      paycontrolF4: 'Team workspaces & people management',
-      paycontrolF5: 'AI receipt extraction, CSV import & Excel export',
-      tryPaycontrol: 'Try PayControl',
+      tuagendaName: 'tuagenda.digital',
+      tuagendaTagline: 'Your clients book on WhatsApp. Your calendar fills itself.',
+      tuagendaDesc:
+        'AI-powered scheduling platform for service businesses. Beautiful booking pages, a WhatsApp AI agent that books appointments 24/7, and automated reminders that eliminate no-shows.',
+      tuagendaF1: 'Customizable booking pages (4 layouts)',
+      tuagendaF2: 'WhatsApp AI agent for 24/7 automated booking',
+      tuagendaF3: 'Automated email & WhatsApp reminders',
+      tuagendaF4: 'Team management & smart scheduling rules',
+      tuagendaF5: 'White-label branding with custom domain',
+      tryTuagenda: 'Try tuagenda.digital',
+      pro: 'Pro',
+      ai: 'AI',
       solvenciaName: 'Solvencia',
       solvenciaTagline: 'Snap it. Track it. AI handles the rest.',
       solvenciaDesc:
@@ -101,10 +103,10 @@ const translations = {
       platformsDetail: 'Seamless experience across all your devices',
     },
     cta: {
-      title: 'Ready to Take Control of Your Finances?',
+      title: 'Ready to Take Control of Your Business & Finances?',
       description:
-        'Join thousands of freelancers and businesses already using our AI-powered tools. Start free, upgrade when you need more.',
-      cta1: 'Try PayControl',
+        'Join thousands of professionals and businesses already using our AI-powered tools. From scheduling to personal finance \u2014 start free, upgrade when you need more.',
+      cta1: 'Try tuagenda.digital',
       cta2: 'Try Solvencia',
     },
     footer: {
@@ -168,35 +170,35 @@ const translations = {
       feature1Desc:
         'Nuestra IA extrae y entiende datos de recibos, facturas y documentos financieros usando OCR avanzado y aprendizaje automático.',
       feature1Link: 'Verlo en Solvencia',
-      feature2Title: 'Automatización Financiera Inteligente',
+      feature2Title: 'Agendamiento Inteligente con IA',
       feature2Desc:
-        'Seguimiento automatizado de pagos recurrentes, gestión de suscripciones y categorización inteligente que ahorra horas de trabajo manual cada semana.',
-      feature2Link: 'Verlo en PayControl',
+        'Reservas automatizadas vía agente de IA en WhatsApp, recordatorios inteligentes y gestión de calendario que llena tu agenda 24/7.',
+      feature2Link: 'Verlo en tuagenda.digital',
       feature3Title: 'Inteligencia Multiplataforma',
       feature3Desc:
         'Nuestros productos funcionan donde tú estás — web, iOS, Android, Telegram y WhatsApp — con sincronización en tiempo real y capacidades de IA consistentes en cada plataforma.',
       feature3Link: 'Verlo en Solvencia',
-      feature4Title: 'Insights Financieros Accionables',
+      feature4Title: 'Agente de Reservas IA en WhatsApp',
       feature4Desc:
-        'Desde análisis de burn rate y calendarios de supervivencia hasta seguimiento de presupuesto y alertas de garantía, nuestra IA transforma datos financieros en decisiones accionables.',
-      feature4Link: 'Verlo en PayControl',
+        'Un agente conversacional de IA en WhatsApp que verifica disponibilidad en tiempo real, sugiere horarios, confirma citas y envía recordatorios — todo automáticamente, 24/7.',
+      feature4Link: 'Verlo en tuagenda.digital',
     },
     products: {
       title: 'Nuestros Productos',
       subtitle:
         'Herramientas reales resolviendo problemas reales para miles de usuarios',
-      paycontrolName: 'PayControl',
-      paycontrolTagline: 'Nunca pierdas un pago. Nunca pierdas el control.',
-      paycontrolDesc:
-        'Plataforma de seguimiento de pagos e inventario para freelancers, pequeñas empresas y equipos. Rastrea pagos con estados personalizados, automatiza facturación recurrente y gestiona toda tu operación en un solo lugar.',
-      paycontrolF1: 'Seguimiento de pagos con estados personalizados',
-      paycontrolF2: 'Automatización de pagos recurrentes y suscripciones',
-      paycontrolF3:
-        'Seguimiento de inventario y activos con monitoreo de garantías',
-      paycontrolF4: 'Espacios de trabajo en equipo y gestión de personas',
-      paycontrolF5:
-        'Extracción de recibos con IA, importación CSV y exportación Excel',
-      tryPaycontrol: 'Probar PayControl',
+      tuagendaName: 'tuagenda.digital',
+      tuagendaTagline: 'Tus clientes reservan por WhatsApp. Tu agenda se llena sola.',
+      tuagendaDesc:
+        'Plataforma de agendamiento con IA para negocios de servicios. Páginas de reserva personalizables, un agente de IA en WhatsApp que agenda citas 24/7, y recordatorios automáticos que eliminan las ausencias.',
+      tuagendaF1: 'Páginas de reserva personalizables (4 diseños)',
+      tuagendaF2: 'Agente de IA en WhatsApp para reservas 24/7',
+      tuagendaF3: 'Recordatorios automáticos por email y WhatsApp',
+      tuagendaF4: 'Gestión de equipo y reglas de horario inteligentes',
+      tuagendaF5: 'Marca blanca con dominio personalizado',
+      tryTuagenda: 'Probar tuagenda.digital',
+      pro: 'Pro',
+      ai: 'IA',
       solvenciaName: 'Solvencia',
       solvenciaTagline: 'Escanea. Rastrea. La IA se encarga del resto.',
       solvenciaDesc:
@@ -241,10 +243,10 @@ const translations = {
       platformsDetail: 'Experiencia fluida en todos tus dispositivos',
     },
     cta: {
-      title: '¿Listo para Tomar Control de Tus Finanzas?',
+      title: '¿Listo para Tomar Control de Tu Negocio y Finanzas?',
       description:
-        'Únete a miles de freelancers y empresas que ya usan nuestras herramientas impulsadas por IA. Comienza gratis, actualiza cuando necesites más.',
-      cta1: 'Probar PayControl',
+        '\u00DAnete a miles de profesionales y empresas que ya usan nuestras herramientas impulsadas por IA. Desde agendamiento hasta finanzas personales \u2014 comienza gratis, actualiza cuando necesites m\u00e1s.',
+      cta1: 'Probar tuagenda.digital',
       cta2: 'Probar Solvencia',
     },
     footer: {

@@ -411,9 +411,9 @@ body {
   flex-shrink: 0;
 }
 
-.product-icon.paycontrol {
-  background: rgba(124, 58, 237, 0.2);
-  color: var(--color-primary);
+.product-icon.tuagenda {
+  background: rgba(37, 211, 102, 0.2);
+  color: #25d366;
 }
 
 .product-icon.solvencia {
