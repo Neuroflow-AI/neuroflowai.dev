@@ -68,6 +68,7 @@ const translations = {
       solvenciaF3: 'Burn rate analysis & survival calendar',
       solvenciaF4: 'Multi-platform: Web, iOS, Android, Telegram, WhatsApp',
       trySolvencia: 'Try Solvencia',
+      comingSoon: 'Coming Soon',
       free: 'Free',
       basic: 'Basic',
       premium: 'Premium',
@@ -107,7 +108,7 @@ const translations = {
       description:
         'Join thousands of professionals and businesses already using our AI-powered tools. From scheduling to personal finance \u2014 start free, upgrade when you need more.',
       cta1: 'Try tuagenda.digital',
-      cta2: 'Try Solvencia',
+      cta2: 'Solvencia — Coming Soon',
     },
     footer: {
       company: 'Company',
@@ -208,6 +209,7 @@ const translations = {
       solvenciaF3: 'Análisis de burn rate y calendario de supervivencia',
       solvenciaF4: 'Multiplataforma: Web, iOS, Android, Telegram, WhatsApp',
       trySolvencia: 'Probar Solvencia',
+      comingSoon: 'Próximamente',
       free: 'Gratis',
       basic: 'Básico',
       premium: 'Premium',
@@ -247,7 +249,7 @@ const translations = {
       description:
         '\u00DAnete a miles de profesionales y empresas que ya usan nuestras herramientas impulsadas por IA. Desde agendamiento hasta finanzas personales \u2014 comienza gratis, actualiza cuando necesites m\u00e1s.',
       cta1: 'Probar tuagenda.digital',
-      cta2: 'Probar Solvencia',
+      cta2: 'Solvencia — Próximamente',
     },
     footer: {
       company: 'Empresa',

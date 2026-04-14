@@ -394,6 +394,41 @@ body {
   border-color: rgba(124, 58, 237, 0.4);
 }
 
+.coming-soon-card {
+  opacity: 0.75;
+  position: relative;
+}
+
+.coming-soon-card:hover {
+  transform: none;
+  border-color: var(--color-border);
+  box-shadow: none;
+}
+
+.coming-soon-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  background: rgba(124, 58, 237, 0.12);
+  border: 1px solid rgba(124, 58, 237, 0.3);
+  border-radius: 2rem;
+  color: var(--color-primary);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.25rem;
+  width: fit-content;
+}
+
+.coming-soon-btn {
+  cursor: not-allowed;
+  opacity: 0.5;
+  pointer-events: none;
+  margin-top: auto;
+}
+
 .product-header {
   display: flex;
   align-items: center;
