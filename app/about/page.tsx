@@ -50,7 +50,7 @@ const aboutContent = {
       {
         name: "Christian Elías",
         role: "Senior Frontend Engineer",
-        image: "/ChristianÉliasProfesional.jpeg",
+        image: "/ChristianEliasProfesional.jpeg",
         linkedin: "https://www.linkedin.com/in/christianeliascg/",
       },
       {
