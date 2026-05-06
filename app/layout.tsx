@@ -1,16 +1,19 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
+import { Manrope } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
-const _geist = Geist({ subsets: ["latin"] })
-const _geistMono = Geist_Mono({ subsets: ["latin"] })
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-manrope",
+  display: "swap",
+})
 
 export const metadata: Metadata = {
-  title: "Neuroflow AI - Inteligencia Artificial Empresarial",
+  title: "Neuroflow AI — AI infrastructure for any business",
   description:
-    "Convierte la IA en tu ventaja competitiva sostenible. Soluciones de IA estratégicas que impulsan crecimiento, eficiencia e innovación empresarial.",
+    "We build SaaS products and custom AI solutions for businesses that want to operate smarter.",
   generator: "v0.app",
   icons: {
     icon: [
@@ -38,8 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`font-sans antialiased dark`}>
-        <div className="gradient-mesh" />
+      <body className={`${manrope.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

@@ -1,5 +1,4 @@
 "use client"
-import { Button } from "@/components/ui/button"
 
 interface LanguageSelectorProps {
   currentLanguage: "es" | "en"
@@ -8,23 +7,31 @@ interface LanguageSelectorProps {
 
 export function LanguageSelector({ currentLanguage, onLanguageChange }: LanguageSelectorProps) {
   return (
-    <div className="flex gap-1 bg-card/50 backdrop-blur-sm rounded-lg p-1 border border-border/30">
-      <Button
-        variant={currentLanguage === "es" ? "default" : "ghost"}
-        size="sm"
-        className="w-10 h-8"
+    <div
+      className="inline-flex items-center text-xs font-medium tracking-widest uppercase select-none"
+      style={{ color: "var(--muted-foreground)" }}
+    >
+      <button
+        type="button"
         onClick={() => onLanguageChange("es")}
+        className="px-1.5 py-1 transition-colors"
+        style={{
+          color: currentLanguage === "es" ? "var(--foreground)" : "inherit",
+        }}
       >
         ES
-      </Button>
-      <Button
-        variant={currentLanguage === "en" ? "default" : "ghost"}
-        size="sm"
-        className="w-10 h-8"
+      </button>
+      <span aria-hidden style={{ opacity: 0.4 }}>/</span>
+      <button
+        type="button"
         onClick={() => onLanguageChange("en")}
+        className="px-1.5 py-1 transition-colors"
+        style={{
+          color: currentLanguage === "en" ? "var(--foreground)" : "inherit",
+        }}
       >
         EN
-      </Button>
+      </button>
     </div>
   )
 }

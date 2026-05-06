@@ -2,167 +2,263 @@ export const translations = {
   es: {
     nav: {
       solutions: 'Soluciones',
-      features: 'Características',
-      resources: 'Recursos',
+      products: 'Productos',
+      process: 'Proceso',
+      about: 'Nosotros',
       contact: 'Contactar',
-      about: 'Sobre Nosotros',
     },
     hero: {
-      badge: 'Tecnología de Vanguardia',
-      title: 'Inteligencia Artificial como Ventaja',
-      titleHighlight: 'Competitiva Sostenible',
+      eyebrow: 'NEUROFLOW AI',
+      title: 'Software inteligente',
+      titleHighlight: 'para cualquier negocio.',
       description:
-        'Transforma tu empresa con soluciones de IA que generan valor estratégico, optimizan operaciones y potencian tu capacidad de innovación exponencial en mercados dinámicos. Ayudamos a startups sin equipo tech a hacer sus productos rápidos con AI driven development.',
-      cta1: 'Comenzar Ahora',
-      cta2: 'Ver Demostración',
-      metric1: '98%',
-      metric1Label: 'Precisión en Resultados',
-      metric2: '350+',
-      metric2Label: 'Empresas Transformadas',
-      metric3: '40%',
-      metric3Label: 'Aumento de Eficiencia',
+        'Construimos productos SaaS y soluciones IA a medida para empresas que quieren operar mejor.',
+      cta1: 'Empezar',
+      cta2: 'Ver productos',
     },
-    features: {
-      title: 'Soluciones Integradas de IA',
-      subtitle:
-        'Arquitectura cognitiva especializada para acelerar transformación digital empresarial',
-      feature1Title: 'Procesamiento Cognitivo Avanzado',
-      feature1Desc:
-        'Motores de aprendizaje neuronal que procesan patrones multidimensionales con capacidad semiótrica sin precedentes.',
-      feature2Title: 'Optimización Sinérgica',
-      feature2Desc:
-        'Algoritmos autorregenerativos que optimizan procesos operacionales mediante paradigmas de eficiencia cuántica computacional.',
-      feature3Title: 'Seguridad Estratificada',
-      feature3Desc:
-        'Infraestructura de protección multinivel con certificaciones de resiliencia cibernética y gobernanza de datos isomórfica.',
-      feature4Title: 'Escalabilidad Dinámica',
-      feature4Desc:
-        'Arquitectura elástica que se adapta a volúmenes de datos exponenciales manteniendo coherencia estructural y consistencia semántica.',
-      feature5Title: 'Innovación Generativa',
-      feature5Desc:
-        'Modelos transformacionales que generan insights predictivos e ideación estratégica mediante síntesis epistémica avanzada.',
-      feature6Title: 'Orquestación Inteligente',
-      feature6Desc:
-        'Ecosistema integrado que coordina múltiples dimensiones de inteligencia con sincronización metacognitiva superior.',
-      explore: 'Explorar',
+    capabilities: {
+      label: 'LO QUE HACEMOS',
+      title: 'Software inteligente, construido para cualquier negocio.',
+      cap1Title: 'Productos SaaS',
+      cap1Desc:
+        'Lanzamos productos como tuagenda.digital, entre otros, listos desde el día uno para operaciones reales.',
+      cap2Title: 'Soluciones IA a medida',
+      cap2Desc:
+        'Diseñamos y desarrollamos automatizaciones inteligentes ajustadas a la operación específica de tu negocio.',
+      cap3Title: 'Infraestructura conectada',
+      cap3Desc:
+        'Integramos modelos IA con tu stack actual: WhatsApp, calendarios, ERPs y datos donde ya viven.',
     },
-    vision: {
-      title: 'Nuestra Visión',
-      description:
-        'Convertir la inteligencia artificial en una ventaja competitiva sostenible para nuestros clientes, impulsando su crecimiento, eficiencia y capacidad de innovación en un entorno empresarial en constante evolución.',
-      item1: 'Transformación empresarial acelerada',
-      item2: 'Sostenibilidad competitiva a largo plazo',
-      item3: 'Innovación continua en ecosistemas dinámicos',
+    products: {
+      label: 'PRODUCTOS',
+      title: 'IA construida para casos de uso reales.',
+      tuagenda: {
+        name: 'tuagenda.digital',
+        status: 'Live',
+        tagline: 'Tu calendario lleno, en piloto automático.',
+        description:
+          'Tu cliente reserva por WhatsApp y nuestra IA agenda, confirma y recuerda — sin que toques nada.',
+        cta: 'Visitar tuagenda.digital',
+        demo: {
+          tabs: {
+            calendar: 'Calendario',
+            whatsapp: 'WhatsApp',
+            dashboard: 'Dashboard',
+            booking: 'Reservas',
+          },
+          booking: {
+            business: 'Salon Bella',
+            ratingLocation: '4.9 · Guadalajara, MX',
+            servicesTitle: 'Servicios',
+            scheduleTitle: 'Horarios disponibles',
+            date: 'Mar 6 de mayo',
+            confirm: 'Confirmar',
+            selectedSummary: 'Mar 6 · 10:00 · 45 min',
+            services: [
+              { name: 'Corte de cabello', price: '$250', duration: '45 min' },
+              { name: 'Barba completa', price: '$150', duration: '30 min' },
+              { name: 'Corte + Barba', price: '$350', duration: '1h 15min' },
+            ],
+          },
+          calendar: {
+            month: 'Mayo 2026',
+            week: 'Semana',
+            monthView: 'Mes',
+            days: ['Lun', 'Mar', 'Mié', 'Jue', 'Vie'],
+          },
+          whatsapp: {
+            assistant: 'AI Assistant · en línea',
+            inputPlaceholder: 'Escribe un mensaje...',
+            messages: [
+              'Hola! Quiero agendar un corte para mañana',
+              '¡Hola! Tengo disponible mañana a las 10:00, 11:30 y 14:00. ¿Cuál te queda mejor?',
+              '11:30 perfecto',
+              '¡Listo! Tu cita quedó confirmada para mañana a las 11:30. Te mando un recordatorio 1h antes.',
+            ],
+          },
+          dashboard: {
+            title: 'Dashboard',
+            date: 'Lunes 5 Mayo',
+            today: 'Hoy',
+            week: 'Semana',
+            clients: 'Clientes',
+            appointments: 'citas',
+            active: 'activos',
+            appointmentsTitle: 'Citas de hoy',
+            confirmed: 'Confirmada',
+            pending: 'Pendiente',
+            services: ['Corte + Color', 'Barba', 'Manicure', 'Corte'],
+          },
+        },
+      },
+      solvencia: {
+        name: 'Solvencia',
+        status: 'Próximamente',
+        tagline: 'Gestión financiera potenciada por IA.',
+        description:
+          'Analiza documentos financieros, genera reportes y detecta oportunidades — todo con IA, sin hojas de cálculo.',
+        cta: 'Unirse a la lista',
+      },
     },
-    mission: {
-      title: 'Nuestra Misión',
-      description:
-        'Desarrollar soluciones y productos propios que generen valor estratégico para las empresas, fortaleciendo su competitividad mediante la excelencia, la innovación y un profundo entendimiento de sus necesidades específicas.',
-      item1: 'Soluciones personalizadas de alto impacto',
-      item2: 'Excelencia técnica y operacional demostrada',
-      item3: 'Alianzas estratégicas duraderas',
-    },
-    clients: {
-      title: 'Empresas que Confían en Nosotros',
+    process: {
+      label: 'PROCESO',
+      title: 'De idea a lanzamiento, con un equipo que ya lo ha hecho.',
+      step1Label: '01',
+      step1Title: 'Estrategia',
+      step1Desc: 'Descubrimos tus necesidades, objetivos y definimos el roadmap del producto.',
+      step2Label: '02',
+      step2Title: 'Construcción',
+      step2Desc: 'Diseñamos y desarrollamos tu producto IA de principio a fin — rápido y confiable.',
+      step3Label: '03',
+      step3Title: 'Lanzamiento',
+      step3Desc: 'Desplegamos, iteramos con feedback real y escalamos contigo.',
     },
     cta: {
-      title: '¿Listo para Transformar tu Empresa?',
+      title: 'Construyamos algo que valga la pena.',
       description:
-        'Únete a cientos de empresas que ya están generando valor estratégico mediante inteligencia artificial de vanguardia.',
-      cta1: 'Agendar Consulta',
-      cta2: 'Descargar Casos de Estudio',
+        'Cuéntanos qué necesitas resolver. Respondemos en menos de 24 horas.',
+      cta1: 'Agendar consulta',
+      email: 'contacto@neuroflowai.dev',
     },
     footer: {
+      tagline: 'Infraestructura IA para cualquier negocio.',
       company: 'Empresa',
-      about: 'Sobre Nosotros',
+      about: 'Nosotros',
       contact: 'Contacto',
       email: 'contacto@neuroflowai.dev',
       linkedin: 'LinkedIn',
-      copyright: '© 2025 Neuroflow AI. Todos los derechos reservados.',
-      tagline: 'Impulsando la inteligencia empresarial del futuro',
+      copyright: '© 2025 Neuroflow AI',
     },
   },
   en: {
     nav: {
       solutions: 'Solutions',
-      features: 'Features',
-      resources: 'Resources',
+      products: 'Products',
+      process: 'Process',
+      about: 'About',
       contact: 'Contact',
-      about: 'About Us',
     },
     hero: {
-      badge: 'Cutting-Edge Technology',
-      title: 'Artificial Intelligence as',
-      titleHighlight: 'Sustainable Competitive Advantage',
+      eyebrow: 'NEUROFLOW AI',
+      title: 'AI infrastructure',
+      titleHighlight: 'for any business.',
       description:
-        'Transform your business with AI solutions that generate strategic value, optimize operations, and enhance your exponential innovation capacity in dynamic markets. We help startups without a tech team build their products fast with AI-driven development.',
-      cta1: 'Get Started',
-      cta2: 'View Demo',
-      metric1: '98%',
-      metric1Label: 'Result Precision',
-      metric2: '350+',
-      metric2Label: 'Companies Transformed',
-      metric3: '40%',
-      metric3Label: 'Efficiency Increase',
+        'We build SaaS products and custom AI solutions for businesses that want to operate smarter.',
+      cta1: 'Get started',
+      cta2: 'View products',
     },
-    features: {
-      title: 'Integrated AI Solutions',
-      subtitle:
-        'Specialized cognitive architecture to accelerate digital business transformation',
-      feature1Title: 'Advanced Cognitive Processing',
-      feature1Desc:
-        'Neural learning engines that process multidimensional patterns with unprecedented semiotic capacity.',
-      feature2Title: 'Synergistic Optimization',
-      feature2Desc:
-        'Auto-regenerative algorithms that optimize operational processes through quantum computational efficiency paradigms.',
-      feature3Title: 'Stratified Security',
-      feature3Desc:
-        'Multi-level protection infrastructure with cyber-resilience certifications and isomorphic data governance.',
-      feature4Title: 'Dynamic Scalability',
-      feature4Desc:
-        'Elastic architecture that adapts to exponential data volumes while maintaining structural coherence and semantic consistency.',
-      feature5Title: 'Generative Innovation',
-      feature5Desc:
-        'Transformational models that generate predictive insights and strategic ideation through advanced epistemic synthesis.',
-      feature6Title: 'Intelligent Orchestration',
-      feature6Desc:
-        'Integrated ecosystem that coordinates multiple intelligence dimensions with superior metacognitive synchronization.',
-      explore: 'Explore',
+    capabilities: {
+      label: 'WHAT WE DO',
+      title: 'AI infrastructure, built for any business.',
+      cap1Title: 'SaaS products',
+      cap1Desc:
+        'We ship products like tuagenda.digital, among others — ready for real-world operations from day one.',
+      cap2Title: 'Custom AI solutions',
+      cap2Desc:
+        'We design and build intelligent automations tailored to your specific operation.',
+      cap3Title: 'Connected infrastructure',
+      cap3Desc:
+        'We integrate AI models with your existing stack: WhatsApp, calendars, ERPs, and the data where it lives.',
     },
-    vision: {
-      title: 'Our Vision',
-      description:
-        'To transform artificial intelligence into a sustainable competitive advantage for our clients, driving their growth, efficiency, and innovation capacity in a constantly evolving business environment.',
-      item1: 'Accelerated business transformation',
-      item2: 'Long-term competitive sustainability',
-      item3: 'Continuous innovation in dynamic ecosystems',
+    products: {
+      label: 'PRODUCTS',
+      title: 'AI built for real use cases.',
+      tuagenda: {
+        name: 'tuagenda.digital',
+        status: 'Live',
+        tagline: 'Your calendar full, on autopilot.',
+        description:
+          'Your client books on WhatsApp and our AI schedules, confirms, and reminds — without you lifting a finger.',
+        cta: 'Visit tuagenda.digital',
+        demo: {
+          tabs: {
+            calendar: 'Calendar',
+            whatsapp: 'WhatsApp',
+            dashboard: 'Dashboard',
+            booking: 'Booking',
+          },
+          booking: {
+            business: 'Salon Bella',
+            ratingLocation: '4.9 · Guadalajara, MX',
+            servicesTitle: 'Services',
+            scheduleTitle: 'Available times',
+            date: 'Tue May 6',
+            confirm: 'Confirm',
+            selectedSummary: 'May 6 · 10:00 · 45 min',
+            services: [
+              { name: 'Haircut', price: '$250', duration: '45 min' },
+              { name: 'Full beard trim', price: '$150', duration: '30 min' },
+              { name: 'Haircut + Beard', price: '$350', duration: '1h 15min' },
+            ],
+          },
+          calendar: {
+            month: 'May 2026',
+            week: 'Week',
+            monthView: 'Month',
+            days: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
+          },
+          whatsapp: {
+            assistant: 'AI Assistant · online',
+            inputPlaceholder: 'Type a message...',
+            messages: [
+              'Hi! I want to book a haircut for tomorrow',
+              'Hi! I have tomorrow at 10:00, 11:30, and 14:00. Which works best for you?',
+              '11:30 works perfectly',
+              'Done! Your appointment is confirmed for tomorrow at 11:30. I will send a reminder 1h before.',
+            ],
+          },
+          dashboard: {
+            title: 'Dashboard',
+            date: 'Monday May 5',
+            today: 'Today',
+            week: 'Week',
+            clients: 'Clients',
+            appointments: 'appointments',
+            active: 'active',
+            appointmentsTitle: "Today's appointments",
+            confirmed: 'Confirmed',
+            pending: 'Pending',
+            services: ['Cut + Color', 'Beard', 'Manicure', 'Haircut'],
+          },
+        },
+      },
+      solvencia: {
+        name: 'Solvencia',
+        status: 'Coming soon',
+        tagline: 'AI-powered financial management.',
+        description:
+          'Analyze financial documents, generate reports, and surface opportunities — all with AI, no spreadsheets.',
+        cta: 'Join the waitlist',
+      },
     },
-    mission: {
-      title: 'Our Mission',
-      description:
-        'Develop solutions and proprietary products that generate strategic value for enterprises, strengthening their competitiveness through excellence, innovation, and deep understanding of their specific needs.',
-      item1: 'High-impact customized solutions',
-      item2: 'Proven technical and operational excellence',
-      item3: 'Durable strategic partnerships',
-    },
-    clients: {
-      title: 'Trusted by Industry Leaders',
+    process: {
+      label: 'PROCESS',
+      title: 'From idea to launch, with a team that has done it before.',
+      step1Label: '01',
+      step1Title: 'Strategy',
+      step1Desc: 'We discover your needs, goals, and define the product roadmap together.',
+      step2Label: '02',
+      step2Title: 'Build',
+      step2Desc: 'We design and build your AI product end-to-end — fast and reliable.',
+      step3Label: '03',
+      step3Title: 'Launch',
+      step3Desc: 'We ship, iterate based on real feedback, and scale with you.',
     },
     cta: {
-      title: 'Ready to Transform Your Business?',
+      title: "Let's build something worth shipping.",
       description:
-        'Join hundreds of companies already generating strategic value through cutting-edge artificial intelligence.',
-      cta1: 'Schedule Consultation',
-      cta2: 'Download Case Studies',
+        'Tell us what you need to solve. We respond in under 24 hours.',
+      cta1: 'Schedule a call',
+      email: 'contacto@neuroflowai.dev',
     },
     footer: {
+      tagline: 'AI infrastructure for any business.',
       company: 'Company',
-      about: 'About Us',
+      about: 'About',
       contact: 'Contact',
       email: 'contacto@neuroflowai.dev',
       linkedin: 'LinkedIn',
-      copyright: '© 2025 Neuroflow AI. All rights reserved.',
-      tagline: "Driving the intelligence of tomorrow's enterprise",
+      copyright: '© 2025 Neuroflow AI',
     },
   },
 };
