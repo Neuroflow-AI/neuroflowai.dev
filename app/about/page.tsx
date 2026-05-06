@@ -49,7 +49,7 @@ const aboutContent = {
     teamMembers: [
       {
         name: "Christian Elías",
-        role: "Desarrollador Senior",
+        role: "Senior Frontend Engineer",
         image: "/ChristianÉliasProfesional.jpeg",
         linkedin: "https://www.linkedin.com/in/christianeliascg/",
       },
@@ -61,9 +61,21 @@ const aboutContent = {
       },
       {
         name: "Bernardo Aguayo",
-        role: "Desarrollador Senior",
+        role: "AI Software Engineer",
         image: "/BernardoAguayo_.png",
         linkedin: "https://www.linkedin.com/in/bernardo-aguayo/",
+      },
+      {
+        name: "Valentina Aguayo",
+        role: "Desarrolladora",
+        image: "/ValeAguayo.png",
+        linkedin: "https://www.linkedin.com/in/valentina-aguayo/",
+      },
+      {
+        name: "Ricardo Rito",
+        role: "Sr. AI Software Engineer",
+        image: "/Ricardo.png",
+        linkedin: "https://www.linkedin.com/in/ricardoaar/",
       },
     ],
     cta: "Construyamos algo que valga la pena.",
@@ -101,7 +113,7 @@ const aboutContent = {
     teamMembers: [
       {
         name: "Christian Elías",
-        role: "Senior Developer",
+        role: "Senior Frontend Engineer",
         image: "/ChristianÉliasProfesional.jpeg",
         linkedin: "https://www.linkedin.com/in/christianeliascg/",
       },
@@ -113,9 +125,21 @@ const aboutContent = {
       },
       {
         name: "Bernardo Aguayo",
-        role: "Senior Developer",
+        role: "AI Software Engineer",
         image: "/BernardoAguayo_.png",
         linkedin: "https://www.linkedin.com/in/bernardo-aguayo/",
+      },
+      {
+        name: "Valentina Aguayo",
+        role: "Developer",
+        image: "/ValeAguayo.png",
+        linkedin: "https://www.linkedin.com/in/valentina-aguayo/",
+      },
+      {
+        name: "Ricardo Rito",
+        role: "Sr. AI Software Engineer",
+        image: "/Ricardo.png",
+        linkedin: "https://www.linkedin.com/in/ricardoaar/",
       },
     ],
     cta: "Let's build something worth shipping.",
