@@ -62,7 +62,7 @@ const aboutContent = {
       {
         name: "Bernardo Aguayo",
         role: "Desarrollador Senior",
-        image: "/BernardoAguayo.jpg",
+        image: "/BernardoAguayo_.png",
         linkedin: "https://www.linkedin.com/in/bernardo-aguayo/",
       },
     ],
@@ -114,7 +114,7 @@ const aboutContent = {
       {
         name: "Bernardo Aguayo",
         role: "Senior Developer",
-        image: "/BernardoAguayo.jpg",
+        image: "/BernardoAguayo_.png",
         linkedin: "https://www.linkedin.com/in/bernardo-aguayo/",
       },
     ],
