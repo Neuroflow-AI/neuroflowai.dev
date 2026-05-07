@@ -8,7 +8,7 @@ export const translations = {
       contact: 'Contactar',
     },
     hero: {
-      eyebrow: 'NEUROFLOW AI',
+      eyebrow: 'NeuroFlow AI',
       title: 'Software inteligente',
       titleHighlight: 'para cualquier negocio.',
       description:
@@ -127,7 +127,7 @@ export const translations = {
       contact: 'Contacto',
       email: 'contacto@neuroflowai.dev',
       linkedin: 'LinkedIn',
-      copyright: '© 2025 Neuroflow AI',
+      copyright: '© 2025 NeuroFlow AI',
     },
   },
   en: {
@@ -139,7 +139,7 @@ export const translations = {
       contact: 'Contact',
     },
     hero: {
-      eyebrow: 'NEUROFLOW AI',
+      eyebrow: 'NeuroFlow AI',
       title: 'AI infrastructure',
       titleHighlight: 'for any business.',
       description:
@@ -258,7 +258,7 @@ export const translations = {
       contact: 'Contact',
       email: 'contacto@neuroflowai.dev',
       linkedin: 'LinkedIn',
-      copyright: '© 2025 Neuroflow AI',
+      copyright: '© 2025 NeuroFlow AI',
     },
   },
 };
