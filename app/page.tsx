@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect, useRef } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { motion, useScroll, useTransform, useInView } from "motion/react"
 import { ArrowUpRight, Bot, Calendar, Clock, LayoutDashboard, MonitorSmartphone, Scissors, Star, User } from "lucide-react"
@@ -146,7 +147,7 @@ function ProcessTimeline({ steps }: { steps: ProcessStep[] }) {
 }
 
 export default function Home() {
-  const [language, setLanguage] = useState<Language>("en")
+  const [language, setLanguage] = useState<Language>("es")
   const [scrolled, setScrolled] = useState(false)
   const t = translations[language]
   const { scrollY } = useScroll()
@@ -177,20 +178,9 @@ export default function Home() {
       >
         <div className="max-w-6xl mx-auto px-6 lg:px-10 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
-            <span
-              aria-hidden
-              className="block transition-transform duration-500"
-              style={{
-                width: 18,
-                height: 18,
-                background: "var(--accent)",
-                borderRadius: 4,
-                transform: "rotate(45deg)",
-                boxShadow: "0 0 24px -4px var(--accent)",
-              }}
-            />
+            <Image src="/logo.png" alt="NeuroFlow AI" width={38} height={38} className="rounded-sm" />
             <span className="text-[17px] font-bold tracking-[-0.02em]">
-              Neuroflow<span style={{ color: "var(--accent)" }}> AI</span>
+              NeuroFlow<span style={{ color: "var(--accent)" }}> AI</span>
             </span>
           </Link>
 
@@ -238,6 +228,7 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.6, ease }}
             className="section-label mb-10 flex items-center gap-3"
+            style={{ textTransform: "none" }}
           >
             <span className="hairline-accent" />
             {t.hero.eyebrow}
@@ -447,20 +438,9 @@ export default function Home() {
       <footer className="px-6 lg:px-12 py-12" style={{ borderTop: "1px solid var(--border)" }}>
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <span
-              aria-hidden
-              className="block"
-              style={{
-                width: 14,
-                height: 14,
-                background: "var(--accent)",
-                borderRadius: 3,
-                transform: "rotate(45deg)",
-                boxShadow: "0 0 18px -4px var(--accent)",
-              }}
-            />
+            <Image src="/logo.png" alt="NeuroFlow AI" width={26} height={26} className="rounded-sm" />
             <span className="text-[15px] font-bold tracking-[-0.02em]">
-              Neuroflow<span style={{ color: "var(--accent)" }}> AI</span>
+              NeuroFlow<span style={{ color: "var(--accent)" }}> AI</span>
             </span>
             <span className="text-xs ml-3" style={{ color: "var(--muted-foreground)" }}>
               {t.footer.tagline}
@@ -495,7 +475,7 @@ export default function Home() {
 /* ── FloatingTechObject ─────────────────────────────────────────────────── */
 /* Esfera de bandas latitudinales rotando en 3D + núcleo de inteligencia      */
 /* pulsante + satélite orbitando. Inspiración: spade.com — adaptado a la      */
-/* identidad Neuroflow (bandas = datos, núcleo = IA, órbita = flujo).         */
+/* identidad NeuroFlow (bandas = datos, núcleo = IA, órbita = flujo).         */
 function FloatingTechObject() {
   const ringCount = 38
   return (

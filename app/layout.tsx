@@ -11,26 +11,13 @@ const manrope = Manrope({
 })
 
 export const metadata: Metadata = {
-  title: "Neuroflow AI — AI infrastructure for any business",
+  title: "NeuroFlow AI — AI infrastructure for any business",
   description:
     "We build SaaS products and custom AI solutions for businesses that want to operate smarter.",
   generator: "v0.app",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/logo.png",
+    apple: "/logo.png",
   },
 }
 

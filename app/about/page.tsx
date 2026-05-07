@@ -23,7 +23,7 @@ const aboutContent = {
     title: "Construimos software",
     titleHighlight: "que vale la pena enviar.",
     intro:
-      "Neuroflow AI es un equipo pequeño que diseña y desarrolla productos SaaS y soluciones IA a medida. Trabajamos con startups y empresas que quieren operar más rápido, con menos fricción.",
+      "NeuroFlow AI es un equipo pequeño que diseña y desarrolla productos SaaS y soluciones IA a medida. Trabajamos con startups y empresas que quieren operar más rápido, con menos fricción.",
     sections: [
       {
         num: "01",
@@ -45,7 +45,7 @@ const aboutContent = {
       },
     ],
     teamLabel: "EQUIPO",
-    teamTitle: "El equipo detrás de Neuroflow AI.",
+    teamTitle: "El equipo detrás de NeuroFlow AI.",
     teamMembers: [
       {
         name: "Christian Elías",
@@ -87,7 +87,7 @@ const aboutContent = {
     title: "We build software",
     titleHighlight: "worth shipping.",
     intro:
-      "Neuroflow AI is a small team that designs and builds SaaS products and custom AI solutions. We work with startups and companies that want to operate faster, with less friction.",
+      "NeuroFlow AI is a small team that designs and builds SaaS products and custom AI solutions. We work with startups and companies that want to operate faster, with less friction.",
     sections: [
       {
         num: "01",
@@ -109,7 +109,7 @@ const aboutContent = {
       },
     ],
     teamLabel: "TEAM",
-    teamTitle: "The team behind Neuroflow AI.",
+    teamTitle: "The team behind NeuroFlow AI.",
     teamMembers: [
       {
         name: "Christian Elías",
@@ -149,7 +149,7 @@ const aboutContent = {
 }
 
 export default function About() {
-  const [language, setLanguage] = useState<Language>("en")
+  const [language, setLanguage] = useState<Language>("es")
   const [scrolled, setScrolled] = useState(false)
   const t = translations[language]
   const content = aboutContent[language]
@@ -174,20 +174,9 @@ export default function About() {
       >
         <div className="max-w-6xl mx-auto px-6 lg:px-10 h-16 flex items-center justify-between">
           <Link href="/" className="flex items-center gap-3 group">
-            <span
-              aria-hidden
-              className="block transition-transform duration-500"
-              style={{
-                width: 18,
-                height: 18,
-                background: "var(--accent)",
-                borderRadius: 4,
-                transform: "rotate(45deg)",
-                boxShadow: "0 0 24px -4px var(--accent)",
-              }}
-            />
+            <Image src="/logo.png" alt="NeuroFlow AI" width={38} height={38} className="rounded-sm" />
             <span className="text-[17px] font-bold tracking-[-0.02em]">
-              Neuroflow<span style={{ color: "var(--accent)" }}> AI</span>
+              NeuroFlow<span style={{ color: "var(--accent)" }}> AI</span>
             </span>
           </Link>
 
@@ -426,20 +415,9 @@ export default function About() {
       <footer className="px-6 lg:px-12 py-12" style={{ borderTop: "1px solid var(--border)" }}>
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div className="flex items-center gap-3">
-            <span
-              aria-hidden
-              className="block"
-              style={{
-                width: 14,
-                height: 14,
-                background: "var(--accent)",
-                borderRadius: 3,
-                transform: "rotate(45deg)",
-                boxShadow: "0 0 18px -4px var(--accent)",
-              }}
-            />
+            <Image src="/logo.png" alt="NeuroFlow AI" width={26} height={26} className="rounded-sm" />
             <span className="text-[15px] font-bold tracking-[-0.02em]">
-              Neuroflow<span style={{ color: "var(--accent)" }}> AI</span>
+              NeuroFlow<span style={{ color: "var(--accent)" }}> AI</span>
             </span>
             <span className="text-xs ml-3" style={{ color: "var(--muted-foreground)" }}>
               {t.footer.tagline}
